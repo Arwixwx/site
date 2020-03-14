@@ -1,12 +1,69 @@
-h1 {
+body {
+	background-color: black;
+	color: white;
+}
+
+#title {
+	color: red;
+}
+
+#menu {
+	border-style: solid;
+	border-color: grey;
+	border-width: 5px;
+	transition: color 2s;
+	background-color: #3B2F2C;
+	width: 250px;
+
+}
+#menu:hover {
+	color: gold;
+}
+
+a {
 	color:red;
 }
 
-body {
-	background-color: black;
+#aside1 {
+	color:gold;
 }
 
-p{
-	color: white;
-	color-interpolation-filters: 
+#cc_menu {
+	text-align: center;
+	color: gold;
+}
+
+#acc_menu {
+	text-align: center;
+	color: red;
+}
+.table_pagename {
+	background-color: #111111;
+	color: #FFFFFF;
+	font-family: verdana;
+	font-size: 11px;
+	cursor: default;
+	border-spacing: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	border-width: 1px;
+	border:1px solid #1e1e1e;
+	border-bottom: 0px;
+	padding: 0px 10px 0px 10px;
+}
+.table_main {
+	background-color: #111111;
+	color: #FFFFFF;
+	font-family: verdana;
+	font-size: 11px;
+	cursor: default;
+	border-spacing: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	border-width: 1px;
+	border:1px solid #1e1e1e;
+	padding: 11px;
+	table-layout: fixed;
 }
