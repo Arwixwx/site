@@ -1,23 +1,44 @@
-body {
+body {	
 	background-color: black;
 	color: white;
 }
 
 #title {
-	color: red;
+	font-size: 100px;
+	color: black;
+	font-family: "yorkwhiteletterregular" , yorkwhiteletter, sans-serif;
+	background-color: white;
+	width:1000px;
+	height: 100px;
+	padding-top: 15px;
+	border-style: solid;
+	border-color: gold;
+	border-width: 4px;
+	transition: background-color;
+	transition-duration: 1s;
+}
+#title:hover {
+	background-color:red;
 }
 
 #menu {
+	font-family: 'roboto-regular', roboto, sans-serif;
 	border-style: solid;
 	border-color: grey;
 	border-width: 5px;
 	transition: color 2s;
 	background-color: #3B2F2C;
 	width: 250px;
+	transition:background-color;
+	transition-duration: 1s;
+
 
 }
 #menu:hover {
-	color: gold;
+	background-color: yellow;
+}
+p{
+	font-family: 'roboto-regular', roboto, sans-serif;
 }
 
 a {
@@ -34,6 +55,7 @@ a {
 }
 
 #acc_menu {
+	font-family: 'roboto-regular', roboto, sans-serif;
 	text-align: center;
 	color: red;
 }
@@ -66,4 +88,40 @@ a {
 	border:1px solid #1e1e1e;
 	padding: 11px;
 	table-layout: fixed;
+}
+
+.cc{
+	text-align: center;
+}
+
+.banner{
+	padding-bottom: 50px;
+}
+
+@font-face {
+    font-family: 'quantumregular';
+    src: url('quantum.woff2') format('woff2'),
+         url('quantum.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'yorkwhiteletterregular';
+    src: url('font/yorkwhiteletter-webfont.woff2') format('woff2'),
+         url('font/yorkwhiteletter-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('font/roboto-regular-webfont.woff2') format('woff2'),
+         url('font/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
