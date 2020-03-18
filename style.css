@@ -5,15 +5,24 @@ body {
 p{
 	font-family: 'Helvetica Neue';
 }
+
 header{
 width: 90%;
+}
+hr{
+	width: 90%;
+	margin: 100px;
+}
+.acc{
+	margin-bottom: 100px;
+	color: black;
 }
 
 .logo{
 	 width:150px;
 }
 .seller{
-		background-color: #111111;
+	background-color: #111111;
 	color: #FFFFFF;
 	font-family: verdana;
 	font-size: 11px;
@@ -30,7 +39,6 @@ width: 90%;
 
 }
 .escrow{
-	background-color: gold;
 	color: black;
 	border:solid;
 	border-radius: 5px;
@@ -57,31 +65,22 @@ width: 90%;
 	border-radius: 5px;
 	font-family: 'nasalizationregular';
 }
-}
-.banner{
-	height: 500px;
-	width: 100%;
-	transition: background-image;
-}
 
-.banner:hover{
-	background-image: image/blackhat.png;
-}
 
-.menu{
-	border: solid  5px #E9E9E9;
+
+header{
+	border: solid  10px #E9E9E9;
 	background-color: #9EB4CC;
 	text-align: left;
-	/*margin-left: 1700px;*/
+	border-radius: 10px;
 }
+
 .menutext{
 	font-family: 'nasalizationregular' ,nasalization;
 	font-size: 15px;
  	text-decoration: none;
  	background-color:#9EB4CC;
  	color: black;
-
-
 }
 
 .menutext:hover{
@@ -106,58 +105,7 @@ width: 90%;
 	border-bottom: 0px;
 	padding: 0px 10px 0px 10px;
 	text-align: center;
-}
-
-.us{
-	background-color: #111111;
-	color: #FFFFFF;
-	font-family: verdana;
-	font-size: px;
-	border-spacing: 1px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 90%;
-	border-width: 1px;
-	border:1px solid #1e1e1e;
-	border-bottom: 0px;
-	text-align: left;
-	padding-left:100000px;
-	color:red;
-}
-.br{
-	background-color: #111111;
-	color: #FFFFFF;
-	font-family: verdana;
-	font-size: px;
-	border-spacing: 1px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 90%;
-	border-width: 1px;
-	border:1px solid #1e1e1e;
-	border-bottom: 0px;
-	padding: 0px 10px 0px 10px;
-	text-align: left;
-}
-.pl{
-	background-color: #9EB4CC;
-	color: #FFFFFF;
-	font-family: verdana;
-	font-size: px;
-	border-spacing: 1px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 90%;
-	border-width: 1px;
-	border:1px solid #1e1e1e;
-	border-bottom: 0px;
-	padding: 0px 10px 0px 10px;
-	text-align: left;
-}
-
-.visa{
-	width: 200px;
-	padding-right: 10000px;
+	border-radius:10px;
 }
 
 a {
@@ -190,6 +138,7 @@ a:hover {
 	border:1px solid #1e1e1e;
 	border-bottom: 0px;
 	padding: 0px 10px 0px 10px;
+	border-radius:10px;
 }
 .table_main {
 	background-color: #9EB4CC;
@@ -204,6 +153,7 @@ a:hover {
 	border:1px solid #1e1e1e;
 	padding: 11px;
 	table-layout: fixed;
+	border-radius:10px;
 }
 
 .cc{
