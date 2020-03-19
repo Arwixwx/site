@@ -107,7 +107,37 @@ header{
 	text-align: center;
 	border-radius:10px;
 }
-
+.divcc{
+	background-color: #9EB4CC;
+	color: black;
+	font-family: 'Helvetica Neue';
+	cursor: default;
+	border-spacing: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	border-width: 1px;
+	border:1px solid #1e1e1e;
+	padding: 11px;
+	table-layout: fixed;
+	border-radius:10px;
+}
+.diva {
+	background-color: #E9E9E9;
+	color: black;
+	font-family: 'Helvetica Neue';
+	cursor: default;
+	border-spacing: 1px;
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+	 margin-bottom:20px;
+	width: 90%;
+	border-width: 1px;
+	border:1px solid #1e1e1e;
+	/*padding: 11px;*/
+	table-layout: fixed;
+	border-radius:10px;
+}
 a {
 	color:black;
 	text-decoration: none;
@@ -118,7 +148,10 @@ a:hover {
 	background-color:black;
 	color:white;
 }
-
+b{
+	font-size: 15px;\
+	border:solid, black;
+}
 
 .acc_menu {
 	font-family: 'roboto-regular', roboto, sans-serif;
