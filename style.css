@@ -148,6 +148,21 @@ a:hover {
 	background-color:black;
 	color:white;
 }
+button{
+	color:black;
+	border:solid;
+	background-color:#B62B1D ;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+button:hover{
+	transition: background-color , color;
+	transition-duration:1s;
+	background-color:black;
+	color:white;
+}
+
+}
 b{
 	font-size: 15px;\
 	border:solid, black;
