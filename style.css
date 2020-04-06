@@ -4,18 +4,22 @@ body {
 }
 p{
   font-family: 'Helvetica Neue';
+  color: white;
 }
 
 header{
 width: 90%;
 }
+
 hr{
-  width: 90%;
-  margin: 100px;
+  width: 200%;
 }
 div {
   width: 100%;
 
+}
+a{
+  color: white;
 }
 
 .acc{
@@ -35,53 +39,15 @@ div {
 #nav img {
   height: 50px;
 }
-
+.row {
+  color: white;
+}
 .logo{
    width:600px;
 }
-.seller{
-  background-color: #111111;
-  color: #FFFFFF;
-  font-family: verdana;
-  font-size: 11px;
-  cursor: default;
-  border-spacing: 1px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  border-width: 1px;
-  border:1px solid #1e1e1e;
-  border-bottom: 0px;
-  padding: 0px 10px 0px 10px;
-}
 
-}
-.escrow{
-  color: black;
-  border:solid;
-  border-radius: 5px;
-  font-family: 'nasalizationregular'; 
-}
-.sold{
-  background-color:#6D0D63;
-  color:black;
-  border:solid;
-  border-radius: 5px;
-  font-family: 'nasalizationregular';
-}
-.review{
-  background-color:#0EA918;
-  color:black;
-  border:solid;
-  border-radius: 5px;
-  font-family: 'nasalizationregular';
-}
-.fe{
-  background-color:red;
-  color:black;
-  border:solid;
-  border-radius: 5px;
-  font-family: 'nasalizationregular';
+
+font-family: 'nasalizationregular';
 }
 
 
@@ -115,39 +81,10 @@ nav.menu-nav ul li:hover a{
   text-align: center;
   border-radius:10px;
 }
-.divcc{
-  background-color: #9EB4CC;
-  color: black;
-  font-family: 'Helvetica Neue';
-  cursor: default;
-  border-spacing: 1px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  border-width: 1px;
-  border:1px solid #1e1e1e;
-  padding: 11px;
-  table-layout: fixed;
-  border-radius:10px;
-}
-.diva {
-  background-color: #E9E9E9;
-  color: black;
-  font-family: 'Helvetica Neue';
-  cursor: default;
-  border-spacing: 1px;
-  /*margin-left: auto;*/
-  /*margin-right: auto;*/
-   margin-bottom:20px;
-  width: 90%;
-  border-width: 1px;
-  border:1px solid #1e1e1e;
-  /*padding: 11px;*/
-  table-layout: fixed;
-  border-radius:10px;
-}
+
+
 a {
-  color:black;
+  color:grey;
   text-decoration: none;
 }
 a:hover {
