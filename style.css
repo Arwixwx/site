@@ -13,6 +13,11 @@ hr{
   width: 90%;
   margin: 100px;
 }
+div {
+  width: 100%;
+
+}
+
 .acc{
   margin-bottom: 100px;
   color: black;
@@ -154,7 +159,7 @@ a:hover {
 button{
   color:black;
   border:solid;
-  background-color:#B62B1D ;
+  background-color:black ;
   border-radius: 10px;
   margin-left: 10px;
 }
@@ -162,7 +167,7 @@ button:hover{
   transition: background-color , color;
   transition-duration:1s;
   background-color:black;
-  color:white;
+  cursor: pointer;
 }
 
 }
