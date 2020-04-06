@@ -1,5 +1,5 @@
 body {  
-  background-color: white;
+  background-color: black;
   font-family: 'Helvetica Neue', Helvetica, sans-serif  ;
 }
 p{
@@ -17,9 +17,22 @@ hr{
   margin-bottom: 100px;
   color: black;
 }
+#nav {
+  margin:0;
+  padding:0;
+}
+#nav li {
+  display:inline;
+  padding:0;
+  margin:0;
+}
+
+#nav img {
+  height: 50px;
+}
 
 .logo{
-   width:150px;
+   width:600px;
 }
 .seller{
   background-color: #111111;
@@ -68,23 +81,11 @@ hr{
 
 
 
+
 header{
-  background-color: #9EB4CC;
+  background-color: black;
   text-align: left;
 }
-
-nav.menu-nav ul li{
-  list-style-type: none;
-  display: inline-block;
-}
-nav.menu-nav ul li a{
-  color: black;
-  background-color: #9EB4CC;
-  text-decoration: none;
-  font-size: 25px;
-
-}
-
 
 nav.menu-nav ul li:hover a{
   color: white;
